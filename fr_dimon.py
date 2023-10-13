@@ -7,5 +7,5 @@ components.iframe("""https://app.powerbi.com/view?r=eyJrIjoiOGQ5ODkyZDUtYzU5Mi00
 a = st.empty()
 c_time = time.time()
 while True:
-    if time.time()-c_time >= 5:
+    if time.time()-c_time >= 1200:
         streamlit_js_eval(js_expressions="parent.window.location.reload()")
