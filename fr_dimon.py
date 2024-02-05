@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 from streamlit_js_eval import streamlit_js_eval
 import time
 st.set_page_config(layout="wide")
-html = """https://app.powerbi.com/view?r=eyJrIjoiMDI4OWRiMmYtYTNmOC00NDdlLTk3MTMtYzlhNDNlZWU2ZDljIiwidCI6IjdjZTQ0MmYwLTExNTAtNGRjYS1iYzBiLWIxMTgwMzdiZTk1NSIsImMiOjl9"""
+html = """https://app.powerbi.com/view?r=eyJrIjoiNWY5NDU2MDktYjMyNy00NjNjLTkxOWUtZTFkNWQzNTM1MjczIiwidCI6IjdjZTQ0MmYwLTExNTAtNGRjYS1iYzBiLWIxMTgwMzdiZTk1NSIsImMiOjl9"""
 components.iframe(html, height=1300, width=2300)
 a = st.empty()
 c_time = time.time()
